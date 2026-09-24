@@ -1,0 +1,14 @@
+actividad 6
+
+planificacion
+voy a continuar las dos paginas del fotografo de la actividad 5.
+voy a usar azul #005081 para la cabecera, celeste #7fb6ee9c para el
+contenido y un fondo oscuro rgba(0, 0, 0, 0.799) para el pie.
+la letra va a ser arial, de 16px, los titulos de 24px y los enlaces
+de la cabecera de 20px. el logo va a tener un alto maximo de 80px.
+voy a dejar 20px de espacio en el contenido y agregar un pie en las
+dos paginas con el nombre del fotografo.
+los campos del formulario van a ir uno abajo del otro.
+voy a usar selectores de tipo, de clase y combinados, un reset basico
+y border-box para que el padding quede adentro del tamaño de la caja.
+el proyecto va en src y se ejecuta con pnpm dev usando five-server.
