@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Catálogo</title>
+    <!-- se agrega enlace a css para que quede conectado
+    con el html -->
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+    <main>
+        <!-- se eliminó un div no semántico fuera del main
+              por un header para los elementos nav   -->
+
+        <header>
+            <nav class="encabezado-principal">
+                <a href="index.html">
+                    <img class="logo" src="./recursos/imagenes/logo-rs.svg" alt="isologotipo que lleva a Inicio">
+                </a>
+                <a href="index.html">Inicio</a>
+                <a href="reservas.html">Reservas</a>
+            </nav>
+        </header>
+        <!-- se opta por un section para subdivir la informacion de catalogo
+        y cabañas p/alquiler -->
+        <section class="cabañas-seccion">
+            <h1 class="titulo">Catálogo de Cabañas</h1>
+
+
+            <h2 class="subtitulo">Cabañas para alquiler</h2>
+            <p class="parrafo-principal">Bienvenido a nuestro catálogo de cabañas. Explora nuestras opciones y encuentra
+                la que mejor se adapte a
+                tus
+                necesidades.</p>
+            <div class="cabañas-apartado">
+                <div class="cabaña-1">
+                    <h2>Cabaña 1</h2>
+                    <!-- corregí ruta de acceso colocando así el jpg -->
+                    <img class="imagen-1" src="./recursos/imagenes/modelo1.jpg" alt="cabaña-1">
+                    <p>30000 por día.</p>
+                    <a class="" href="reservas.html">Reservar</a>
+                </div>
+                <div class="cabaña-2">
+                    <h2>Cabaña 2 </h2>
+                    <img class="imagen-2" src="./recursos/imagenes/modelo2.jpg" alt="cabaña-2">
+                    <p>35000 por día.</p>
+                    <a href="reservas.html">Reservar</a>
+                </div>
+                <div class="cabaña-3">
+                    <h2>Cabaña 3</h2>
+                    <img class="imagen-3" src="./recursos/imagenes/modelo3.jpg" alt="cabaña-3">
+                    <p>20000 por día.</p>
+                    <a href="reservas.html"> Reservar</a>
+                </div>
+                <div class="cabaña-4">
+                    <h2>Cabaña 4</h2>
+                    <img class="imagen-4" src="./recursos/imagenes/modelo4.jpg" alt="cabaña-4">
+                    <p>38000 por día</p>
+                    <a href="reservas.html">Reservar</a>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <!-- se eliminó un div no semántico por un footer   -->
+    <footer>
+        <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
