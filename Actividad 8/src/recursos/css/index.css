@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html
+{
+
+}
+nav
+{
+    position: sticky;
+}
+nav a {
+    text-decoration: none;
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.encabezado-principal {
+    background-color: navajowhite;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.logo {
+
+    width: 200px;
+}
+
+.cabañas-seccion {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo
+{
+    color: chocolate;
+}
+.subtitulo
+{
+    color: rgb(206, 129, 74);
+}
+
+.cabañas-apartado
+{
+    color: rgb(206, 129, 74);;
+}
+
+.imagen-1 {
+    width: 600px;
+    height: 600px;
+
+}
+
+.imagen-2 {
+    width: 600px;
+    height: 600px;
+}
+
+.imagen-3 {
+    width: 600px;
+    height: 600px;
+}
+
+.imagen-4 {
+    width: 600px;
+    height: 600px;
+}
+.titulos-reservas
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formulario
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+footer {
+    background-color: navajowhite;
+    padding: 40px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Reservas</title>
+    <!-- al igual que en index, agrego el enlace de conexion a css que faltaba -->
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+
+<body>
+    <!-- corrijo al igual que en index, el nav dentro de un header
+    con los alt correspondientes, estos son importantes para aclarar
+    con que intención creamos determinado enlace  -->
+    <header>
+        <nav class="encabezado-principal">
+            <a href="index.html">
+                <img class="logo" src="./recursos/imagenes/logo-rs.svg" alt="isologotipo que lleva a Inicio">
+            </a>
+            <a href="index.html">Inicio</a>
+            <a href="reservas.html">Reservas</a>
+        </nav>
+    </header>
+    <!-- ordeno todo dentro de un main con su respectivo section para organizar
+ la informacion -->
+    <main>
+        <section>
+            <div class="titulos-reservas">
+                <h1>Reservas</h1>
+                <h2>Contactanos</h2>
+            </div>
+            <article>
+                <form class="formulario" method="post">
+
+                    <label for="id-nombre">Nombre</label>
+                    <input type="text" name="nombre" id="id-nombre">
+                    <label for="id-telefono">Teléfono</label>
+                    <input type="text" name="telefono" id="id-telefono">
+                    <label for="id-email">Email</label>
+                    <input type="text" name="email" id="id-email">
+                    <label for="id-fecha-desde">Fecha desde</label>
+                    <input type="date" name="fecha desde" id="id-fecha-desde">
+                    <label for="id-fecha-hasta">Fecha hasta</label>
+                    <input type="date" name="fecha hasta" id="id-fecha-hasta">
+                    <label for="id-comentario">Comentario</label>
+                    <input type="text" name="comentario" id="id-comentario">
+                    <button class="boton-reservas" type="submit">Enviar</button>
+                </form>
+            </article>
+
+
+
+
+        </section>
+
+    </main>
+    <!-- al igual que en index, agregamos footer que si es semántico y ordenado -->
+    <footer>
+        <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+
+</html>
