@@ -1,0 +1,13 @@
+En la página de inicio utilizaremos un enfoque **MPA (Multiple Page Application)**, ya que entendemos que es el más adecuado para organizar la navegación general del sitio. Las cabañas cuentan con información propia, como su disponibilidad, precios y descripciones, que pueden ir cambiando a lo largo del tiempo. Por esto mismo, consideramos conveniente mantener una estructura que permita acceder a las distintas secciones mediante páginas independientes, facilitando su organización y mantenimiento.
+
+Por otra parte, en la página de reservas utilizaremos un enfoque **SPA (Single Page Application)**, ya que el usuario podrá realizar su consulta mediante un formulario sin necesidad de navegar constantemente entre distintas páginas. De esta manera, buscamos priorizar una experiencia más dinámica, rápida y fluida, permitiendo completar los datos y recibir una respuesta sin tener que recargar toda la página.
+
+En conclusión, la combinación de ambos enfoques nos permitirá aprovechar las ventajas de cada uno: MPA para organizar la navegación general del sitio y SPA para ofrecer una interacción más ágil dentro de la sección de reservas.
+
+**Relación de los enfoques MPA y SPA con CSR y SSR**
+
+En cuanto a la relación con CSR y SSR, entendemos que el enfoque MPA suele estar asociado a SSR (Server-Side Rendering), ya que el servidor puede generar y entregar una página HTML completa cada vez que el usuario navega hacia otra sección del sitio.
+
+Por otra parte, SPA suele relacionarse con CSR (Client-Side Rendering), debido a que el navegador utiliza JavaScript para actualizar el contenido de la página sin necesidad de recargarla completamente.
+
+Por esto mismo, consideramos que la combinación de ambos enfoques permitiría mantener una navegación organizada dentro del catálogo y ofrecer una experiencia más dinámica en la sección de reservas.s
