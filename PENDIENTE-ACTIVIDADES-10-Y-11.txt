@@ -1,0 +1,14 @@
+﻿PENDIENTE: ACTIVIDADES 10 Y 11
+
+Esta nota registra el trabajo pendiente. No contiene ejercicios resueltos ni código copiado.
+
+Actividad 10
+- Consultar la consigna original en AW-Actividades/actividad10/ACTIVIDAD-10-JS.pdf.
+- La consigna pide realizar el trabajo individualmente y no usar IA para desarrollarlo ni planificarlo.
+- Resolver la actividad por cuenta propia y adjuntar los materiales que pide la consigna.
+
+Actividad 11
+- El material disponible en AW-Actividades/actividad11 es index.js; esa carpeta no incluye un PDF de consigna.
+- Consultar la consigna original de la actividad antes de completarla.
+
+Cuando estén realizadas, agregar a este repositorio las entregas propias de las actividades 10 y 11.
