@@ -9,6 +9,8 @@ Actividad 10
 
 Actividad 11
 - El material disponible en AW-Actividades/actividad11 es index.js; esa carpeta no incluye un PDF de consigna.
-- Consultar la consigna original de la actividad antes de completarla.
+- Se agrego Actividad 11/index.js siguiendo la estructura visible del archivo de referencia.
+- La parte 2-b es una inferencia porque el archivo de referencia termina en ese encabezado.
+- Comparar la entrega con la consigna original cuando este disponible.
 
-Cuando estén realizadas, agregar a este repositorio las entregas propias de las actividades 10 y 11.
+Cuando este realizada la actividad 10, agregar su entrega propia a este repositorio.
